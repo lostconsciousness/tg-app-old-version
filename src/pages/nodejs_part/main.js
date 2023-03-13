@@ -2,7 +2,7 @@ import TelegramBot from 'node-telegram-bot-api';
 
 const TOKEN = "6075679825:AAGrgD6b9hybk9EoNue44k1ZPW8paFJCs5M";
 
-const WebAppUrl = 'https://unrivaled-malabi-c38a3f.netlify.app/';
+const WebAppUrl = 'http://dmitrykarpov.pythonanywhere.com/';
 
 
 const bot = new TelegramBot(TOKEN, {polling: true});
